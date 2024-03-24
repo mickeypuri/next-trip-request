@@ -255,7 +255,7 @@ export default function DetailMap({ request, }) {
                   <span className="font-bold">{driverDistance}</span> away
                 </p>
                 <p>
-                  Will be here in <span className="font-bold">{driverDuration}</span>
+                  {driver_username} can be here in <span className="font-bold">{driverDuration}</span>
                 </p>
               </div>
             </InfoWindowF>}
